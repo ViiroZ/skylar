@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="Style/Main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>ЭКСПЕРТНЫЕ СИСТЕМЫ</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="logo"> 
+			<div class="full">
+			<h1> Экспертные системы</h1>  
+		</div>
+	</div>
+		<div class="panel">
+			<div class="full">
+				<div class="navbar">
+					<ul>
+						<li> <a href="index.html">Страница 1</i> </a></li>
+							<li><a href="2.html">Страница 2  </a></li>
+								<li class="active"> <a href="3.html">Страница 3 </a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+
+	<div class="container full">
+		<div class="content">
+	<h1 class="test"> Тест </h1>
+<script type="text/javascript">
+
+
+var questions=[
+{
+    text: " Процесс приобретения знаний - это...",
+    answers: ["процесс передачи и преобразования опыта по решению задач от некоторого источника знаний в программе",
+          "процессы передачи знаний",
+          "качество работы, которое зависит от объема и ценности знаний"],
+    correctAnswer: 0
+},
+{
+    text: "Идентификация включает в себя:",
+    answers: ["изменение форм представления",
+          "отыскивание эксперта, источников знаний, ресурсов и ясную формулировку проблемы",
+          "выбор основных понятий и связей, необходимых для описания проблемы"],
+    correctAnswer: 1
+},
+{
+    text: "Концептуализация предусматривает:",
+    answers: [" изменение форм представления",
+          "выбор основных понятий и связей, необходимых для описания проблемы",
+          "отыскивание эксперта, источников знаний, ресурсов и ясную формулировку проблемы"],
+    correctAnswer: 1
+},
+{
+    text: "Стадия реализации включает в себя:",
+    answers: [" перевод формализованных знаний на предыдущей стадии в схему представления, определяемую выбранным языком.",
+          "выбор основных понятий и связей, необходимых для описания проблемы",
+          "отыскивание эксперта, источников знаний, ресурсов и ясную формулировку проблемы"],
+    correctAnswer: 0
+}
+];
+
+var yourAns = new Array;
+var score = 0;
+
+function Engine(question, answer) {yourAns[question]=answer;}
+
+function Score(){
+   var answerText = "Результаты:\n";
+   for(var i = 0; i < yourAns.length; ++i){
+    var num = i+1;
+    answerText=answerText+"\n    Вопрос №"+ num +"";
+    if(yourAns[i]!=questions[i].correctAnswer){
+        answerText=answerText+"\n    Правильный ответ: " +
+        questions[i].answers[questions[i].correctAnswer] + "\n";
+      }
+        else{
+        answerText=answerText+": Верно! \n";
+        ++score;
+        }
+       }
+
+   answerText=answerText+"\nВсего правильных ответов: "+score+"\n";
+
+   alert(answerText);
+   yourAns = [];
+   score = 0;
+   clearForm("quiz");
+}
+function clearForm(name) {
+   var f = document.forms[name];
+   for(var i = 0; i < f.elements.length; ++i) {
+    if(f.elements[i].checked)
+        f.elements[i].checked = false;
+}
+}
+</script>
+
+<style>
+span.quest {font-weight: bold;}
+</style>
+
+<h1><script>document.write(title)</script></h1>
+<h2><script>document.write(subtitle)</script></h2>
+
+<form name="quiz"> 
+<ul class="test-q"> 
+<script>
+for(var q=0; q<questions.length; ++q) {
+   var question = questions[q];
+   var idx = 1 + q;
+
+   document.writeln('<li><span class="quest">' + question.text + '</span><br/>');
+   for(var i in question.answers) {
+    document.writeln('<input type=radio name="q' + idx + '" value="' + i +
+    '" onClick="Engine(' + q + ', this.value)">' + question.answers[i] + '<br/>');
+}
+}
+</script>
+</ul>
+<input type="button" onClick="Score()" value="Проверить результаты" />
+
+			
+			
+		</div>
+	</div>
+
+	<div class="footer"> 
+		<div class="full">
+		<p> © Сергей Юзов </p> 
+	</div>
+</div>
+
+</body>
+</html>
