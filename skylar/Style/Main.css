@@ -1,0 +1,331 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: url(../img/bg.jpg) repeat center;
+	font-family: 'Teko', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+.wrapper {
+	min-width: 1200px;	
+}
+
+.full {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.panel {
+	margin: 15px 0 0;
+	width: 100%;
+	height: 50px;
+
+}
+
+.navbar li  {
+	float: left;
+	height: 50px;
+	position: relative;
+}
+
+
+.navbar ul li {
+	list-style: none;
+}
+
+.navbar ul {
+	margin-left: 30px;
+}
+.navbar a {
+	padding: 0 20px;
+	color: #73928d;
+	text-transform: uppercase;
+	transition: 0.7s;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 50px;
+	display: block;
+	
+}
+
+.navbar a:hover, .active a{
+	color: red;
+	display: block;
+	background: white;
+}
+
+.logo {
+height: 116px;
+background: white;
+}
+
+.logo h1 {
+	font-size: 55px;
+	text-transform: uppercase;
+	color: red;
+	line-height: 120px;
+	margin-left: 30px;
+}
+
+.logo p {
+	color: #C0bab6;
+	font-weight: 600;
+
+}
+
+.navbar li:last-child {
+	border: none;
+
+}
+
+.container  {
+	height: 1270px;
+	width: 960px;
+}
+
+
+
+
+.navbar li:first-child {
+
+}
+
+.leftbar {
+	height: 1300px;
+	width:641px; 
+	float: left;
+	background: white;
+}
+.rightbar {
+		height: 1300px;
+	width:319px; 
+	float:right;
+	background: #73928d;
+}
+
+.upperleft {
+	width: 578px;
+	margin-left: 30px;
+	height: 8px;
+	background: #f5f5f5;
+	border: none;
+	margin-top: 30px;
+}
+
+.leftbar h1 {
+	margin-left: 30px;
+	color: red;
+	font-size: 45px;
+}
+
+.downleft {
+		width: 578px;
+	margin-left: 30px;
+	height: 8px;
+	background: #f5f5f5;
+	border: none;
+}
+
+.upperright {
+	width: 261px;
+	margin-left: 30px;
+	height: 8px;
+	background: #6c8582;
+	border: none;
+	margin-top: 30px;
+}
+
+.downright {
+	width: 261px;
+	margin-left: 30px;
+	height: 8px;
+	background: #6c8582;
+	border: none;
+}
+
+.rightbar h1 {
+	margin-left: 30px;
+	color: white;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+.rightbar ul {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.rightbar li a {
+	color: white;
+	font-size: 16px;
+	transition: 0.6s;
+}
+
+.rightbar a:hover {
+	color: red;
+}
+
+.rightbar div {
+	margin-left: 30px;
+}
+
+.rightbar span {
+	color: #b4dbc9;
+	font-size: 17px;
+}
+
+.rightbar p {
+	margin-top: 19px;
+	width: 215px;
+	font-size: 17px;
+	color: white;
+}
+
+.date {
+	color: #b4dbc9;
+	font-family: 20px;
+	margin-bottom: 26px;
+}
+
+.date-2 {
+	line-height: 22px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 30px;
+	font-size: 30px;
+	text-transform: uppercase;
+	width: 42px;
+	position: absolute;
+	color: #7d9794;
+	font-weight: 600;
+
+
+}
+ 
+.info h1 {
+	margin-top: 30px;
+	font-size: 40px;
+	color: #7d9794;
+	margin-left: 97px;
+}
+
+.name {
+	margin-left: 97px;
+	color: #b3dac7;
+	font-size: 20px;
+}
+
+.text {
+
+	margin-left: 97px;
+	width: 487px;
+	font-size: 20px;
+}
+
+.text a {
+	color: red;
+	transition: 0.6s;
+}
+
+.text a:hover {
+	color: green;
+}
+
+.undertext { 
+	height: 2px;
+	border: none;
+	margin-top: 38px;
+	width: 580px;
+	margin-left: 30px;
+	background: #e9e9e9;
+ }
+
+ .leftbutton {
+ 	float: left;
+ 	margin-left: 30px;
+ 	
+
+ }
+
+ .rightbutton {
+ 	float: right;
+ 	margin-right: 30px;
+ }
+
+.buttons a {
+margin-top: 30px;
+border: 2px solid #7d9794;
+border-radius: 30px;
+text-align: center;
+width: 135px;
+color: white;
+background: #7d9794;
+font-size: 20px;
+text-transform: uppercase;
+display: block;
+transition: 0.6s;
+}
+
+.buttons a:hover {
+border: 2px solid red;
+border-radius: 30px;
+background: red;
+
+}
+
+.number {
+	font-weight: 600;
+	font-size: 50px;
+
+}
+
+
+.footer {
+	width: 100%;
+	height: 50px;
+
+}
+
+.footernav li  {
+
+	float: left;
+	height: 50px;
+	position: relative;
+}
+
+
+.footernav ul li {
+	list-style: none;
+}
+
+.footernav ul {
+	margin-left: 30px;
+}
+.footernav a {
+	margin-top: 30px;
+	padding: 0 20px;
+	color: #73928d;
+	text-transform: uppercase;
+	transition: 0.7s;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 50px;
+	display: block;
+	
+}
+
+.footernav a:hover, .active a{
+	color: red;
+	display: block;
+	background: white;
+}
