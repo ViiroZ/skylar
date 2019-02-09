@@ -9,7 +9,8 @@ a {
 
 body {
 	font-family: arial;
-	background: url(../img/bg.jpg) center /cover fixed;
+	background: url(../img/bg.jpg) center fixed;
+background-size: cover;
 	background-color: rgba(4,4,4,0.55);
 	 background-blend-mode: darken;
 
