@@ -12,11 +12,11 @@ body {
 	background: url("../img/bg.jpg") no-repeat top center /cover fixed;
 	background-color: rgba(4,4,4,0.55);
 	 background-blend-mode: darken;
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 }
 .wrapper {
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	top: 0%;
 	left: 0;
