@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: arial;
+	background: url(../img/bg.jpg) no-repeat top center /cover fixed;
+	background-color: rgba(4,4,4,0.55);
+	 background-blend-mode: darken;
+
+	height: 100%;
+	width: 100%;
+}
+.wrapper {
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	left: 0;
+	position: absolute;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 100%;
+}
+
+.content h1 {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 10px;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+}
+
+.content p {
+	position: absolute;
+	margin-top: 60px;
+	font-size: 20px;
+	color: #d7e1ec;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.media {
+	position: absolute;
+	margin-top: 105px;
+}
+
+.liniya {
+	width: 100px;
+	margin-top: 32px;
+	position: absolute;
+	height: 1px;
+	border: none;
+	background: #d7e1ec;
+}
+
+.media a {
+	font-weight: 600;
+display: block;
+float: left;
+height: 35px;
+width: 100px;
+text-align: center;
+line-height: 35px;
+border: 1px solid #8c845f;
+border-radius: 7px;
+text-transform: uppercase;
+margin-left: 25px;
+margin-right: 25px;
+color: #8c845f;
+transition: 0.7s;
+}
+
+.media a:hover {
+	color: white;
+}
