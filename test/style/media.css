@@ -342,6 +342,9 @@
 
 @media screen and (max-width: 480px)
 {
+	.lefts {
+		font-size: 17px;
+	}
 	#nav-under a {
 		font-size: 12px;
 	}
@@ -373,7 +376,7 @@
 	.left {
 
 	width: 120px;
-	height: 400px;
+	height: 300px;
 	margin-right: 10px;
 	
 
@@ -383,7 +386,7 @@
 .center {
 	width: 120px;
 	margin: 0 auto;
-	height: 400px;
+	height: 300px;
 
 	
 }
@@ -391,7 +394,7 @@
 .right {
 
 	width: 120px;
-	height: 400px;
+	height: 300px;
 }
 .text {
 	width: 120px;
@@ -425,3 +428,85 @@
 }
 }
 
+@media screen and (max-width: 400px) {
+	.container {
+		width: 320px;
+	}
+
+	#nav-under li {
+	}
+
+	#nav-under {
+		height: 30px;
+		line-height: 0px;
+	}
+
+	#nav-under a {
+		line-height: 30px;
+		padding: 0 7px;
+		font-size: 13px;
+	}
+
+	.number {
+		font-size: 13px;
+	}
+
+	.lefts, .under {
+		font-size: 13px;
+	}
+
+	.infobar {
+		padding-top: 35px;
+		width: 50%;
+	}
+
+	.aboutus {
+		height: 150px;
+	}
+
+	.main-pic {
+
+    position: absolute;
+    bottom: 0;
+    top: 40px;
+    left: 65%;
+
+} 
+
+.main-pic img {
+	height: 80px;
+}
+
+	.left {
+
+	width: 100px;
+	height: 250px;
+	margin-right: 10px;
+	
+
+}
+
+
+.center {
+	width: 100px;
+	margin: 0 auto;
+	height: 250px;
+
+	
+}
+
+.right {
+
+	width: 100px;
+	height: 250px;
+}
+.text {
+	width: 100px;
+	font-size: 8px;
+}
+
+.zag {
+	font-size: 12px;
+}
+
+}
