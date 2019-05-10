@@ -189,6 +189,10 @@
 		width: 600px;
 	}
 
+.info {
+			height: 100vh;
+		}
+
 .left {
 		float: left;
 	display: inline-block;
@@ -245,6 +249,9 @@
 
 @media screen and (max-width: 685px)
 {
+	.info {
+			height: 100vh;
+		}
 	.container {
 		width: 570px;
 	}
@@ -303,4 +310,32 @@
 		width: 500px;
 
 	}
+	.left {
+
+	width: 160px;
+	height: 500px;
+	margin-right: 10px;
+	
+
+}
+
+
+.center {
+	width: 160px;
+	margin: 0 auto;
+	height: 500px;
+
+	
+}
+
+.right {
+
+	width: 160px;
+	height: 500px;
+}
+.text {
+	width: 160px;
+
+}
+
 }
