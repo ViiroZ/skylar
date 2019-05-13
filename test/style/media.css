@@ -618,6 +618,73 @@
 	line-height: 50px;
 
 }
+}
+
+@media screen and (max-width: 320px) { /* iphones */
+	.container {
+		width: 290px;
+	}
+
+	.left {
+
+	width: 90px;
+	height: 250px;
+	
 
 }
 
+
+.center {
+	width: 90px;
+	margin: 0 auto;
+	height: 250px;
+
+	
+}
+
+.right {
+
+	width: 90px;
+	height: 250px;
+}
+
+.text {
+	width: 85px;
+	font-size: 8px;
+}
+
+	.main-pic {
+
+    position: absolute;
+    bottom: 0;
+    top: 40px;
+    left: 60%;
+
+}
+.line {
+	margin: 15px auto;
+	width: 100px;
+}
+
+.contacts-text {
+	margin-top: 10px;
+	line-height: 25px;
+}
+
+.block {
+    padding: 20px;
+    margin: 15% auto 0px;
+    width: 220px;
+}
+.under-av {
+	width: 260px;
+	font-size: 10px;
+}
+
+.avatar {
+	width: 150px;
+}
+.prof {
+	font-size: 13px;
+}
+}
