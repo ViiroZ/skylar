@@ -410,6 +410,12 @@
 	width: 200px;
 }
 
+.aboutus {
+
+	height: 150px;
+
+}
+
 #nav-under {
 	line-height: normal;
 }
@@ -438,7 +444,7 @@
 
     position: absolute;
     bottom: 0;
-    top: 50px;
+    top: 3	0px;
     left: 60%;
 
 } 
@@ -541,7 +547,7 @@
 	}
 
 	.infobar {
-		padding-top: 35px;
+		padding-top: 45px;
 		width: 50%;
 	}
 
@@ -594,6 +600,24 @@
 	font-size: 12px;
 }
 
+
+.block {
+	padding: 30px;
+	margin: 15% auto 0px;
+	width: 250px;
 }
 
+.under-av {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+	width: 310px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+
+}
+
+}
 
