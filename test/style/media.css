@@ -618,6 +618,10 @@
 	line-height: 50px;
 
 }
+.prof {
+	font-size: 14
+
+px;
 }
 
 @media screen and (max-width: 320px) { /* iphones */
