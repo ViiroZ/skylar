@@ -288,6 +288,10 @@
 	width: 300px;
 }
 
+#nav-under {
+	line-height: normal;
+}
+
 .contacts-text {
 	margin-top: 20px;
 	text-align: center;
@@ -376,6 +380,9 @@
 
 }
 
+#nav-under {
+	line-height: normal;
+}
 
 .center {
 	width: 160px;
@@ -403,6 +410,9 @@
 	width: 200px;
 }
 
+#nav-under {
+	line-height: normal;
+}
 .contacts-text {
 	margin-top: 10px;
 	text-align: center;
