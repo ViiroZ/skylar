@@ -1,0 +1,80 @@
+@media screen and (max-width: 1600px) {
+	.right-bar img {
+    display: block;
+    height: 462px;
+    float: right;
+    position: absolute;
+    left: 51.7%;
+
+ }
+     .block {
+	height: 462px;
+	background: #f5f5f5;
+	margin-bottom: 90px;
+	position: relative;
+}
+
+.best {
+	top: 20px;
+	display: block;
+    font-size: 25px;
+    margin-top: 40px;
+    color: #7b6c63;
+    position: absolute;
+
+}
+.best-text {
+		line-height: normal;
+    top: 120px;
+}
+
+.btn-block a {
+	position: absolute;
+	top: 350px;
+
+}
+}
+
+
+@media screen and (max-width: 1366px) {
+	.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.right-bar img {
+    display: block;
+    height: 400px;
+    float: right;
+    position: absolute;
+    left: 51.5%;
+}
+    .block {
+	height: 400px;
+	background: #f5f5f5;
+	margin-bottom: 90px;
+	position: relative;
+}
+
+.best {
+	display: block;
+    font-size: 25px;
+    margin-top: 40px;
+    color: #7b6c63;
+    position: absolute;
+
+}
+.best-text {
+		line-height: normal;
+    top: 95px;
+}
+
+.btn-block a {
+	position: absolute;
+	top: 320px;
+
+}
+
+}
+
+
