@@ -51,7 +51,7 @@ line-height: 95px;
 }
 
 .logo-middle {
-	overflow: auto;
+	overflow: hidden;
 	height: 670px;
 	background: url(../img/header/header-bg.jpg) no-repeat center /cover;
 	    background-color: rgba(4,4,4,0.85);
