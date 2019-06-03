@@ -292,5 +292,17 @@ height: 350px;
 }*/
 
 
+.panel-mobile {
+	display: none;
+	background: #303030;
+}
+.nav-mobile {
+	display: none;
+	
 }
 
+.nav-mobile  a {
+display: inline-block;
+color: white;
+text-decoration: none;
+}
