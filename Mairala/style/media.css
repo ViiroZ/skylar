@@ -166,25 +166,25 @@
     margin: 0 auto;
 }
     .service-text {
-        width: 400px;
+        width: 390px;
     }
     .column-center {
-        width: 130px;
+        width: 120px;
         margin-left: 20px;
     }
     .column-right {
-        width: 130px;
+        width: 120px;
     }
     .column-left {
-        width: 130px;
+        width: 120px;
     }
     .under-title {
-        width: 130px;
+        width: 120px;
     }
     .best-text {
        left: 30px;
-        width: 360px;
-        font-size: 13px;
+        width: 340px;
+        font-size: 12px;
         top: 45px;
     }
 
@@ -237,7 +237,7 @@
         display: block;
     }
     .logo-middle {
-        height: 600px;
+        height: 550px;
     }
 
     .right-bar {
