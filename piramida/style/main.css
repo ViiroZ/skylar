@@ -1,0 +1,321 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+#header {
+	width: 100%;
+	height: 80px;
+	background: #29a440;
+	}
+
+
+.leftb {
+	float: left;
+	color: #FCFCFC;
+}
+.lefts {
+	line-height: 50px;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+
+}
+.under {
+	font-family: sans-serif;
+	line-height: 0px;
+}
+
+.rightb {
+
+	float: right;
+	color: #FCFCFC;
+
+}
+
+.number {
+	line-height: 80px;
+}
+
+
+
+#nav-under {
+	line-height: 50px;
+	height: 50px;
+	text-align: left;
+
+}
+
+#nav-under li {
+	border-right: 2px solid #f4f2e9;
+	
+	display: inline-block;
+}
+
+#nav-under li:last-child {
+	border-right: none;
+}
+
+#nav-under  a {
+	padding: 0 25px;
+	text-decoration: none;
+	color: black;
+	 font-weight: 600;
+	 font-family: arial;
+    line-height: 50px;
+    font-size: 19px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+#nav-under  a:hover, #nav-under .active a{
+ background: #29a440;
+ color: white;
+}
+
+
+
+.aboutus {
+	background: #f4f2e9;
+	height: 200px;
+
+}
+
+.information {
+	position: relative;
+}
+
+
+.infobar {
+	width: 35%;
+	font-size: 25px;
+	padding-top: 60px;
+}
+
+.main-pic {
+	position: absolute;
+	bottom: 0;
+	top: 15px;
+	left: 75%;
+	z-index: 1;
+}
+
+.main-pic img {
+
+	height: 170px;
+
+}
+
+.circle {
+  margin: 15px auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  line-height: 80px;
+  text-align: center;
+}
+
+.circle-1 {
+  background: #0aa440;
+ }
+
+ .circle-2 {
+  background: red;
+ }
+
+.circle-3 {
+  background: #ffc000;
+ }
+.left {
+	float: left;
+	margin-right: 3px;
+	width: 395px;
+	height: 500px;
+	border-radius: 15px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+
+	.center {
+		width: 395px;
+		display: inline-block;
+		margin-left: 5px;
+		height: 500px;
+		border-radius: 15px;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		
+	}
+
+.right {
+	float: right;
+	margin-left: 2.5px;
+	width: 395px;
+	height: 500px;
+	border-radius: 15px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.info {
+	
+	margin-top: 40px;
+	margin-bottom: 50px;
+
+}
+
+.zag {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.text  {
+	
+	text-align: center;
+	padding: 0 45px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+
+.footer {
+	background: #29a440;
+	height: 60px;	
+}
+
+
+.footer-right {
+	float: right;
+	text-align: right;
+	color: white;
+	font-family: sans-serif;
+	line-height: 60px;
+}
+
+.footer-right a {
+	color: #DEDEDE;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-weight: 600;
+	transition: 0.6s;
+}
+
+.footer-right a:hover {
+	color: white;
+
+}
+
+.footer-left {
+	float: left;
+	font-family: sans-serif;
+	color: white;
+	line-height: 60px;
+
+}
+
+.contacts-info {
+	margin-top: 	20px;
+	margin-bottom: 40px;
+	height: 100vh;	
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.contacts-text {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 0.5px;
+	line-height: 35px;
+}
+
+.line {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 1px;
+	background: black;
+	border: none;
+}
+
+.develop-info {
+	overflow: none;
+	margin-bottom: 40px;
+	height: 100vh;	
+	
+
+}
+
+.avatar {
+	border-radius: 100px;
+	width: 200px;
+	margin: 10% auto 0px;
+	display: block;
+	
+}
+
+
+
+.block {
+	padding: 30px;
+	margin: 15% auto 0px;
+	width: 300px;
+	border: 1px solid black;
+}
+
+.prof {
+	text-align: center;
+
+}
+
+.name {
+	letter-spacing: 1px;
+	font-size: 24px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.under-av {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+	width: 360px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+
+
+}
+
+.under-av li {
+	
+	display: inline-block;
+}
+
+.under-av a {
+	font-size: 25px;
+	margin: 30px;
+	color: black;
+	transition: 0.6s;
+}
+
+.under-av a:hover {
+	color: #29a440;
+}
