@@ -149,3 +149,54 @@ nav {
 	width: 100%;
 	margin-bottom: 105px;
 }
+
+.block-3-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.block-3 p {
+	text-align: center;
+	 padding: 0px 220px 0px 220px;
+	 margin-bottom: 30px;
+	}
+
+.line { 
+background: red;
+height: 2px;
+margin: 0 auto;
+width: 130px;
+margin-bottom: 90px;
+ }
+
+.block-3-links {
+	margin-bottom: 60px;
+	text-align: center
+}
+.block-3-links li {
+	display: inline-block;
+	margin: 0 25px;
+}
+
+.block-3-link {
+	font-weight: 600;
+	color: #737373;
+	transition: 0.6s;
+}
+
+.block-3-link:hover {
+	color: red;
+	text-decoration: none;
+}
+ .active-link {
+	color: red;
+}
+
+.pictures img {
+	margin-bottom: 15px;
+	width: 255px;
+}
+
+.pictures {
+	margin-bottom: 140px;
+}
