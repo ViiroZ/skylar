@@ -1,0 +1,26 @@
+@media (max-width: 988px) {
+.header_information h1 {
+	font-size: 2.2em;
+}
+}
+
+@media (max-width: 768px) {
+	.block-2-button {
+		    margin-bottom: 80px;
+	}
+	#button {
+		margin-bottom: 100px;
+	}
+}
+
+
+
+@media (max-width: 576px) {
+	.block-2-button {
+		    margin-bottom: 110px;
+	}
+	#button {
+		margin-bottom: 100px;
+	}
+}
+
