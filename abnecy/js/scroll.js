@@ -1,3 +1,3 @@
 $(".anchor a").mPageScroll2id({
-   offset : 100
+   offset : 65
 });
