@@ -1,3 +1,16 @@
+ @media (min-width: 1200px) {
+  .container {
+ 	max-width: 1250px !important;
+  }
+} 
+
+@media (max-width: 1200px) {
+	.pictures img {
+	margin-bottom: 15px;
+	width: 265px;
+}
+}
+
 @media (max-width: 988px) {
 .header_information h1 {
 	font-size: 2.2em;
